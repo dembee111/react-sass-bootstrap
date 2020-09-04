@@ -1,0 +1,48 @@
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+}
+
+.menu-active {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 10%;
+        right: 20%;
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        background-color: $danger;
+    }
+}
+
+.shop-icon .nav-item.active {
+    background-color: $gray-600;
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: $black;
+
+            @include hover-focus() {
+                color: $navbar-light-hover-color;
+            }
+
+            &.disabled {
+                color: $navbar-light-disabled-color;
+            }
+        }
+
+        .show>.nav-link,
+        .active>.nav-link,
+        .nav-link.show,
+        .nav-link.active {
+            color: $navbar-light-color;
+        }
+    }
+}
