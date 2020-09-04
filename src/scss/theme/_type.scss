@@ -21,6 +21,16 @@ h4,
     letter-spacing: $headings-letter-spacing;
 }
 
+h3,
+.h3 {
+    margin-bottom: 1rem;
+    line-height: $line-height-base;
+
+    @include media-breakpoint-down(md) {
+        font-size: $font-size-xl;
+    }
+}
+
 h4,
 .h4 {
     margin-bottom: 1rem;

@@ -57,3 +57,70 @@
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
 }
+
+.card-secondary {
+    position: relative;
+    border-radius: 0;
+    border: none;
+    background-clip: border-box;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.card-secondary-title {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    transition: .8s ease;
+    opacity: 0;
+    padding: 9px 15px;
+    text-align: left;
+}
+
+.card-secondary:hover .card-secondary-title {
+    opacity: 1;
+}
+
+.blue-outline {
+    outline: 2px solid #628AAE;
+    outline-offset: 10px;
+}
+
+.card-side {
+    position: relative;
+    border-radius: 0;
+    border: none;
+    background-clip: border-box;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.card-side-title {
+    position: absolute;
+    color: $black;
+    top: 0;
+    left: 0;
+    transition: .5s ease;
+    text-align: center;
+    width: 42%;
+    height: 100%;
+    background-color: $white;
+
+}
+
+.card-side-title h1 {
+    position: absolute;
+    left: 43%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

@@ -2,8 +2,8 @@ $white: #FFFFFF !default;
 $gray-100: #F9FBFD !default;
 $gray-200: #F1F4F8 !default;
 $gray-300: #D9E2EF !default;
-$gray-400: #C6D3E6 !default;
-$gray-500: #ABBCD5 !default;
+$gray-400: #6a6565 !default;
+$gray-500: #F1F1F1 !default;
 $gray-600: #F4F4F4 !default;
 $gray-700: #727272 !default;
 $gray-800: #151515 !default;
@@ -83,3 +83,6 @@ $spacers: map-merge((0: 0,
         11: ($spacer * 6), // 96px   
     ),
     $spacers);
+
+// bg gradient 1 
+$bg-gradient-1: linear-gradient(90deg, #F0EEEE 0%, rgba(240, 238, 238, 0) 103.21%);
