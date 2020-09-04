@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Microsoft Yahei";
+    font-weight: 400;
+    src: url("#{$path-to-fonts}/chinese.msyh.ttf") format("ttf"),
+    url("#{$path-to-fonts}/chinese.msyh.ttf") format("ttf");
+}
+
+.font-size-sm {
+    font-size: $font-size-sm;
+}

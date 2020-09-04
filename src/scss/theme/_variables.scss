@@ -1,5 +1,45 @@
-$red: red;
+$white: #FFFFFF !default;
+$gray-100: #F9FBFD !default;
+$gray-200: #F1F4F8 !default;
+$gray-300: #D9E2EF !default;
+$gray-400: #C6D3E6 !default;
+$gray-500: #ABBCD5 !default;
+$gray-600: #869AB8 !default;
+$gray-700: #727272 !default;
+$gray-800: #151515 !default;
+$gray-900: #262626 !default;
+$black: #000000 !default;
 
-h1 {
-    color: $red;
-}
+$primary: $black !default;
+$secondary: $gray-800 !default;
+
+
+$theme-colors: () !default;
+
+$theme-colors: ();
+
+
+
+
+
+// Negdugeer font
+$font-family-base: 'Microsoft Yahei' !default;
+$font-size-base: 1rem; //16px
+$font-size-sm: 0.875rem !default; //12px
+$font-size-sx: 0.75rem !default; //14px
+$font-size-lg: 1.25rem !default; //20px
+$font-size-xl: 1.5rem !default; //24px
+$font-size-xxl: 4.5265rem !default; //73px
+$font-weight-normal: 400 !default;
+
+//h1-h6 font-size
+$h1-font-size: 4.5625rem !default;
+$h2-font-size: 1.9375rem !default;
+$h3-font-size: 1.3125rem !default;
+$h4-font-size: 1.1875rem !default;
+$h5-font-size: 1.0625rem !default;
+$h6-font-size: 0.75rem !default;
+
+// path
+$path-to-img: "../../assets/img " !default;
+$path-to-fonts: "../../assets/font" !default;
