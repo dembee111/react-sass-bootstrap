@@ -1,0 +1,31 @@
+.bg-footer {
+    background: #F6F6F6;
+
+    .footer-title {
+        padding-top: 25px;
+        font-size: $font-size-sx;
+        line-height: $line-height-lg;
+        letter-spacing: 0.125em;
+        color: #000000;
+    }
+
+    .footer-link li a {
+        text-decoration: none;
+        font-size: $font-size-sm;
+        line-height: $line-height-base;
+        color: #5F5F5F;
+
+    }
+
+    .footer-line {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border-top: 1px solid #E8E8E8;
+    }
+
+    .footer-copyrigth {
+        margin-top: 25px;
+        font-size: $font-size-sm;
+        color: #727C80;
+    }
+}

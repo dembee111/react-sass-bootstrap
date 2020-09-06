@@ -5,8 +5,14 @@
     url("#{$path-to-fonts}/chinese.msyh.ttf") format("ttf");
 }
 
+// 12px
 .font-size-sm {
     font-size: $font-size-sm;
+}
+
+// 14px
+.font-size-sx {
+    font-size: $font-size-sx;
 }
 
 

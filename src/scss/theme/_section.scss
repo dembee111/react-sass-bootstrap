@@ -1,0 +1,73 @@
+.carousel-control-next-icon {
+    display: none;
+}
+
+.nextArrow.arrow {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prevArrow.arrow {
+    position: absolute;
+    bottom: 40%;
+
+    @include media-breakpoint-up(md) {
+        bottom: 25%;
+
+    }
+
+    @include media-breakpoint-up(lg) {
+        bottom: 18%;
+
+    }
+
+    @include media-breakpoint-up(xl) {
+        bottom: 15%;
+
+    }
+
+    @include media-breakpoint-up(xxl) {
+        bottom: 12%;
+
+    }
+
+    right: 5%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+// .bg-color-arrow {
+//     width: 45px;
+//     height: 45px;
+//     background: rgba(255, 255, 255, 0.8);
+// }
+
+
+// %btn-styles {
+//     position: absolute;
+//     transform: translateY(-50%);
+//     width: 5%;
+//     right: 2%;
+//     cursor: pointer;
+//     z-index: 1;
+//     background: none;
+//     border: none;
+//     outline: none;
+
+//     &:hover svg {
+//         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)
+//     }
+// }
+
+// #goLeft {
+//     bottom: 26%;
+//     @extend %btn-styles;
+// }
+
+// #goRight {
+//     bottom: 18%;
+//     @extend %btn-styles;
+// }

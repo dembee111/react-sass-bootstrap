@@ -1,0 +1,44 @@
+.testimonial-group>.row {
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    flex-wrap: wrap !important;
+
+    @include media-breakpoint-up(md) {
+        flex-wrap: nowrap !important;
+    }
+
+}
+
+.testimonial-group>.row>.col-md-3 {
+    display: inline-block !important;
+    float: none;
+}
+
+/* width */
+.testimonial-group ::-webkit-scrollbar {
+    margin-top: 10px;
+    width: 25px !important;
+    height: 8px;
+}
+
+/* Track */
+.testimonial-group ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #cecece;
+    border-radius: 20px;
+}
+
+/* Handle */
+.testimonial-group ::-webkit-scrollbar-thumb {
+    background: $black;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.testimonial-group ::-webkit-scrollbar-thumb:hover {
+    background: $blue-tsaiwar;
+}
+
+/* Handle */
+.testimonial-group ::-webkit-scrollbar-button {
+    width: 20px;
+}

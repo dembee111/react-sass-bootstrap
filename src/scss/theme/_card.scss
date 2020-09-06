@@ -67,6 +67,44 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    transition: 1s ease;
+
+    &:hover .second-photo-3 {
+        display: none !important;
+    }
+
+    &:hover .second-photo-4 {
+        display: block !important;
+
+    }
+
+    &:hover .second-photo-1 {
+        display: none !important;
+    }
+
+    &:hover .second-photo-2 {
+        display: block !important;
+
+    }
+
+    &:hover .second-photo-5 {
+        display: none !important;
+    }
+
+    &:hover .second-photo-6 {
+        display: block !important;
+
+    }
+
+    &:hover .second-photo-7 {
+        display: none !important;
+    }
+
+    &:hover .second-photo-8 {
+        display: block !important;
+
+    }
+
 
 }
 
@@ -79,6 +117,7 @@
     opacity: 0;
     padding: 9px 15px;
     text-align: left;
+
 }
 
 .card-secondary:hover .card-secondary-title {
@@ -86,7 +125,7 @@
 }
 
 .blue-outline {
-    outline: 2px solid #628AAE;
+    outline: 2px solid $blue-tsaiwar;
     outline-offset: 10px;
 }
 
@@ -123,4 +162,56 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.card-guraw {
+    position: relative;
+    border-radius: 0;
+    border: none;
+    background-clip: border-box;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.overlay-guraw {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    text-align: center;
+    color: $white;
+
+    & .center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.card-guraw:hover .overlay-guraw {
+    width: 100%;
+}
+
+.zuraas:before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 4rem;
+    height: 1px;
+    background-color: $white;
+    content: "";
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
 }
